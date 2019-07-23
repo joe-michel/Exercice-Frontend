@@ -1,4 +1,6 @@
-### Exercice-Frontend ###
+# Exercice-Frontend
+
+### Exercice Frontend: Thème Arcana ###
 Reproduction du thème "Arcana" de "HTML5 UP" pour un exercice.
 
 Lien du site: https://joe-michel.github.io/Exercice-Frontend/
