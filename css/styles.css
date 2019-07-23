@@ -1,0 +1,278 @@
+body {
+    background-color: white;
+}
+
+h1 {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    font-size: 2rem !important;
+}
+
+h1 > a {
+    color: #4b4b4b;
+    font-weight: bolder;
+}
+
+h1 > a:hover {
+    text-decoration: none;
+    color: #3579d3;
+}
+
+.light {
+    font-weight: 200 !important;
+}
+
+nav{
+    border-bottom: #3EBCF5 1.5vh solid;
+    background-color: #2A2A2A;
+}
+
+.navbar-nav {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+.banner {
+    width: 100%;
+    height: 60vh;
+}
+
+.banner > img {
+    width: 100%;
+    height: 60vh;
+}
+
+.banner > .bannerContent{
+    z-index:1;
+    bottom:0;
+    left:0;
+    background-color:rgba(0,0,0,0.5);
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    width: 100%;
+}
+
+.bannerText {
+    font-weight: bolder;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.bannerText > a {
+    color: white;
+}
+
+.learnMore {
+    background-color: #4BBCEE;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    border: none;
+    border-radius: 5px;
+}
+
+.important {
+    width: 90%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-top: 8vh;
+    padding-bottom: 12vh;
+}
+
+.important > .col > i {
+    background-color: #3EBCF5;
+    border-radius: 50%;
+    padding: 20px 20px 20px 20px;
+    box-shadow: 0 0 0 7px white, 0 0 0 8px #e0e0e0;
+}
+
+.fas:before{
+    color:white;
+}
+
+.columns > .col > p {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.big-title {
+    background-color: #f8f8f8;
+    padding-top: 13vh;
+    padding-bottom: 13vh;
+}
+
+.big-title > h2 {
+    font-size: 2.8rem;
+}
+
+.big-title > p {
+    font-size: 1.8rem;
+    color: #a5a5a5;
+}
+
+hr{
+    width: 70%;
+}
+
+.elements {
+    width: 75%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.element > .image {
+    border-radius: 5px;
+    width: 30%;
+    height: 100%;
+}
+
+.element-text {
+    font-size: 1.2rem;
+    margin-top: 3vh;
+    color: #969696;
+}
+
+.w-100 {
+    height: 5vh;
+}
+
+.colored {
+    background-color: #3AB3EB;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    color: white;
+}
+
+.colored > h2 {
+    font-weight: bolder;
+}
+
+.insert-coin {
+    background-color: white;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    border: none;
+    border-radius: 5px;
+}
+
+.contacts {
+    padding-top: 8vh;
+    padding-bottom: 5vh;
+    width: 100%;
+}
+
+.contacts > div > ul > li {
+    list-style-type: none;
+    padding-bottom: 2vh;
+    font-weight: 100;
+    font-size: 1.2rem;
+    color: #5c5c5c;
+    text-decoration: underline #969696;
+}
+
+.contacts > div > ul > li > a {
+    color: #5c5c5c;
+}
+
+.sendMessage {
+    background-color: #4D4D4D;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    border: none;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+}
+
+.icons > li {
+    display: inline-block;
+    padding-right: 1%;
+}
+
+.fab:before {
+    color: #969696;
+}
+
+.fab:hover {
+    color: #4D4D4D;
+    text-decoration: none;
+}
+
+.copyright > li {
+    display: inline-block;
+    margin-right: 0.5%;
+    padding-right: 0.5%;
+    color: #969696;
+}
+
+.copyText {
+    border-right: #969696 1px solid;
+}
+
+@media screen and (max-width: 980px) {
+    .bigTitle {
+        display: none;
+    }
+
+    .navbar-toggler-icon {
+        color: white;
+    }
+
+    .important {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1275px) {
+    .contacts {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .contacts > div {
+        width: 100%;
+        margin-bottom: 10vh;
+    }
+
+    .contacts > div > form {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .formTitle {
+        text-align: center;
+    }
+}
