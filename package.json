@@ -1,0 +1,25 @@
+{
+  "name": "exercice-frontend",
+  "version": "1.0.0",
+  "description": "Reproduction of the theme \"Arcana\" by \"HTML5 UP\"",
+  "main": "index.html",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joe-michel/Exercice-Frontend.git"
+  },
+  "author": "Joé Michel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joe-michel/Exercice-Frontend/issues"
+  },
+  "homepage": "https://github.com/joe-michel/Exercice-Frontend#readme"
+}
